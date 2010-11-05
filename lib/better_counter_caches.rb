@@ -1,3 +1,0 @@
-module BetterCounterCaches
-  # Your code goes here...
-end
