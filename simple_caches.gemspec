@@ -4,13 +4,13 @@ require "simple_caches/version"
 
 Gem::Specification.new do |s|
   s.name        = "simple_caches"
-  s.version     = BetterCounterCaches::VERSION
+  s.version     = SimpleCaches::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["TODO: Write your name"]
-  s.email       = ["TODO: Write your email address"]
-  s.homepage    = "http://rubygems.org/gems/better_counter_caches"
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.authors     = ["David Padilla"]
+  s.email       = ["david@crowdint.com"]
+  s.homepage    = "http://rubygems.org/gems/simple_caches"
+  s.summary     = %q{Generate simple counter caches}
+  s.description = %q{Generate simple counter caches, just specify where to store them and where to get them}
 
   s.add_dependency('activerecord', '~>3.0.0')
   s.add_development_dependency('shoulda', '~>2.11.3')
